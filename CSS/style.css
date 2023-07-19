@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+
+body {
+    background: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px 10px;
+    margin-right: 50px;
+    font-weight: 500;
+    font-family: 'Mynerve', cursive;;
+}
+
+header .nombre {
+    font-size: 26px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Mynerve', cursive;
+    cursor: pointer;
+    transition: .4s;
+}
+
+header .nombre:hover {
+    transform: scale(1.05);
+}
+
+header .nombre b {
+    color: aquamarine;
+}
+
+ul li {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: aquamarine;
+}
+
+.info h2 {
+    font-family: 'Mynerve', cursive;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 160px;
+    font-weight: 800;
+}
+
+.info h3 {
+    font-family: 'Mynerve', cursive;
+    margin-left: 100px;
+    color: aquamarine;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.info p {
+    font-family: 'Mynerve', cursive;
+    margin-left: 100px;
+    padding: 60px 0;
+    font-size: 22px;
+}
+
+.info button {
+    font-size: 26px;
+    background: transparent;
+    color: aquamarine;
+    border-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Mynerve', cursive;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.info button:hover {
+    transform: scale(1.05);
+}
+
+.info .fotos {
+    margin-left: 100px;
+}
+
+.info .videos {
+    margin-left: 30px;
+}
+
+.foto img {
+    margin-right: 120px;
+    margin-top: 30px;
+    border-radius: 15px;
+    opacity: 0.7;
+    box-shadow: 0 5px 5px aquamarine;
+}
+
+footer .redes {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: aquamarine;
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.redes a img {
+    width: 35px;
+    transition: 0.5s;
+}
+
+.redes a img:hover{
+    transform: scale(1.15);
+}
